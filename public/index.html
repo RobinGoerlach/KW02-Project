@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Personal Library</h1>
+    </header>
+    <main>
+      <section id="user-list">
+        <h2>Users</h2>
+        <ul id="users"></ul>
+      </section>
+      <section id="book-list">
+        <h2>Books</h2>
+        <ul id="books"></ul>
+      </section>
+      <section id="add-user">
+        <h2>Add User</h2>
+        <form id="user-form">
+          <input type="text" id="firstName" placeholder="First Name" required />
+          <input type="text" id="lastName" placeholder="Last Name" required />
+          <button type="submit">Add User</button>
+        </form>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
